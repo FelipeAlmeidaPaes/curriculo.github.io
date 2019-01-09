@@ -1,0 +1,136 @@
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+#wrapper{
+  background: url('../images/68SV5zC.jpg') no-repeat center; /* i.imgur.com/68SV5zC.jpg */
+  background-size: cover;
+  width: 100%;
+}
+
+#main-wrapper{
+  background: linear-gradient(54deg,rgba(74,76,179,.95) 34%,rgba(206,156,156,.95));
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+nav{
+  color:white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul{
+  padding-left: 0;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+li a:hover{
+  opacity: .5;
+  color: #fff;
+  transition: 0.7s;
+}
+
+li a:after{
+  content:"_";
+  opacity: 0;
+}
+
+li a:hover:after{
+  opacity: 1;
+}
+
+#about{
+  width: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+#me{
+  border-radius: 100%;
+  margin: 10px 0 0 10%;
+  transform: translateX(-10%);
+  vertical-align: top!important;
+}
+
+.navbar-toggler-icon{
+  fill: white;
+  color: white;
+}
+
+#me:hover{
+  width: 250px;
+  border-radius: 20px;
+  transition: 0.7s;
+  z-index: 9999;
+  margin-bottom: 10px;
+}
+
+#me:not(:hover){
+  width: 200px;
+  border-radius: 100%;
+  transition: 0.7s;
+}
+
+h1{
+  font-size: 1.5em;
+  color: white;
+}
+
+div{
+  margin: 0 0px;
+  display: inline-block;
+}
+
+div p{
+  color: white;
+  font-size: 1.1em;
+}
+
+p span{
+  color: grey;
+}
+
+h1::after{
+  content:"|";
+  animation: pisca 0.7s infinite;
+}
+
+@keyframes pisca {
+  0%, 100% { opacity: 1;}
+  50% { opacity: 0;}
+}
+
+dt{
+  color: white;
+  font-size: 1.1em;
+}
+
+
+dd{
+  -webkit-margin-start: 32%;
+  transform: translateY(-26px);
+  color: white;
+}
+
+dd:nth-child(4){
+  -webkit-margin-start: 18%;
+}
+
+dd a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+}
