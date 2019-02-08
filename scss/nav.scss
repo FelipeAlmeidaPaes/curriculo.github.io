@@ -1,3 +1,5 @@
+
+
 a:hover{
   text-decoration: none;
   color: white;
@@ -7,12 +9,14 @@ a:hover{
   background: url('../images/bg.jpg') no-repeat center; /* i.imgur.com/68SV5zC.jpg */
   background-size: cover;
   width: 100%;
+  padding-top: 0px;
 }
 
 #main-wrapper{
   background: linear-gradient(54deg,rgba(74,76,179,.95) 34%,rgba(206,156,156,.95));
   width: 100%;
   padding-bottom: 20px;
+  padding-top: 66px;
 }
 
 nav{
@@ -26,7 +30,6 @@ nav{
 
 nav.black{
   background: rgba(0, 0, 0, 0.9);
-  height: 65px;
 }
 
 

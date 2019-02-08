@@ -1,8 +1,33 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
 
-  #about #me {
-    
+  nav{
+    background: linear-gradient(54deg,rgba(74,76,179, 1) 34%,rgba(206,156,156, 1));
+  }
+
+  .show{
+    padding-bottom: 50px;
+  }
+
+  #wrapper{
+    margin-top: 0;
+    padding-top: 0px;
+  }
+
+  #main-wrapper{
+    padding-top: 66px;
+  }
+
+  h1{
+    margin-left: 10px;
+  }
+
+  #about div p{
+    margin-left: 10px;
+  }
+
+  dl{
+    margin-left: 10px;
   }
 
 } 

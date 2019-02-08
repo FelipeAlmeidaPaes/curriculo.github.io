@@ -142,12 +142,14 @@ a:hover {
   background: url("../images/bg.jpg") no-repeat center;
   /* i.imgur.com/68SV5zC.jpg */
   background-size: cover;
-  width: 100%; }
+  width: 100%;
+  padding-top: 0px; }
 
 #main-wrapper {
   background: linear-gradient(54deg, rgba(74, 76, 179, 0.95) 34%, rgba(206, 156, 156, 0.95));
   width: 100%;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  padding-top: 66px; }
 
 nav {
   color: white;
@@ -157,8 +159,7 @@ nav {
   transition: all 0.9s ease-out 0s; }
 
 nav.black {
-  background: rgba(0, 0, 0, 0.9);
-  height: 65px; }
+  background: rgba(0, 0, 0, 0.9); }
 
 nav ul li {
   list-style: none;
@@ -285,7 +286,24 @@ dd a {
 #apresentacao a:hover {
   background: #6d56c1; }
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+  nav {
+    background: linear-gradient(54deg, #4a4cb3 34%, #ce9c9c); }
+  .show {
+    padding-bottom: 50px; }
+  #wrapper {
+    margin-top: 0;
+    padding-top: 0px; }
+  #main-wrapper {
+    padding-top: 66px; }
+  h1 {
+    margin-left: 10px; }
+  #about div p {
+    margin-left: 10px; }
+  dl {
+    margin-left: 10px; } }
+
 @media only screen and (min-width: 992px) {
   .navbar-nav {
     padding-left: 30%; } }
