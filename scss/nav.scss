@@ -4,7 +4,7 @@ a:hover{
 }
 
 #wrapper{
-  background: url('../images/68SV5zC.jpg') no-repeat center; /* i.imgur.com/68SV5zC.jpg */
+  background: url('../images/bg.jpg') no-repeat center; /* i.imgur.com/68SV5zC.jpg */
   background-size: cover;
   width: 100%;
 }
@@ -19,11 +19,16 @@ nav{
   color:white;
   padding: 10px;
   text-align: center;
+  position: fixed;
+  transition: all 0.9s ease-out 0s;
 }
 
-nav ul{
-  padding-left: 0;
+
+nav.black{
+  background: rgba(0, 0, 0, 0.9);
+  height: 65px;
 }
+
 
 nav ul li{
   list-style: none;
@@ -50,6 +55,25 @@ li a:after{
 
 li a:hover:after{
   opacity: 1;
+}
+
+svg{
+  width: 200px;
+  height: 40px;
+  background: transparent;
+}
+
+svg path{
+  fill: white;
+}
+
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 #about{
@@ -113,20 +137,22 @@ h1::after{
   50% { opacity: 0;}
 }
 
+
 dt{
   color: white;
-  font-size: 1.1em;
+  font-size: 0.9em;
 }
 
 
 dd{
-  -webkit-margin-start: 32%;
-  transform: translateY(-26px);
+  -webkit-margin-start: 27%;
+  transform: translateY(-23px);
   color: white;
+  font-size: 0.9em;
 }
 
 dd:nth-child(4){
-  -webkit-margin-start: 18%;
+  -webkit-margin-start: 16%;
 }
 
 dd a{
