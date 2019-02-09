@@ -1,23 +1,25 @@
-#apresentacao{
+#ola{
   width: 90%;
   margin: 0 auto;
 }
 
-#apresentacao h2{
+#ola h2{
   margin-bottom: 30px;
   padding-top: 30px;
 }
 
-#apresentacao p{
+#ola p{
+  font-size: 1.2em;
   text-align: justify;
+  font-family: 'Maven Pro', sans-serif;
 }
 
-#apresentacao a{
+#ola a{
   color: white;
   background: #7b67c7;
   border-radius: 200px;
 }
 
-#apresentacao a:hover{
+#ola a:hover{
   background: #6d56c1;
 }
