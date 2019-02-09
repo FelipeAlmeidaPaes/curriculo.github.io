@@ -13,18 +13,23 @@
 #skills h2{
   margin-left: 5%;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.skills_images img{
-  width: 100px;
-  height: 100px;
-  margin: 25px 75px 25px;
+
+.skills_images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  
 }
 
 .skills_images .chart{
   width: 100px;
   height: 100px;
-  margin: 25px 75px 25px;
+  flex: 1;
+  margin: 25px 45px 25px;
 }
 
 .chart:nth-child(1) canvas{

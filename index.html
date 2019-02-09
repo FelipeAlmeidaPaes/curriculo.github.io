@@ -20,7 +20,7 @@
   <script> 
     $(function() {
       $('.chart').easyPieChart({
-        size: 150,
+        size: 120,
         animate: 1400,
         lineWidth: 5,
         lineCap: "butt",
@@ -58,7 +58,7 @@
         <li class="nav-item"><a class="nav-link" href="#ola">Olá</a></li>
         <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
         <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        <li class="nav-item"><a class="nav-link" href="#footer">Contato</a></li>
       </ul>
     </div>
   </nav>
@@ -77,12 +77,7 @@
           Taquara - RJ
           </p>
 
-          <dl>
-            <dt>Whatsapp:</dt>
-            <dd><a href="https://api.whatsapp.com/send?phone=5521979527629&text=Olá!%20" target="blank">21 9 7952-7629</a></dd>
-            <dt>Email:</dt> 
-            <dd><a href="#">felipe.almeida.paes22@gmail.com</a></dd>
-          </dl>
+          <br><br>
 
           <a href="https://github.com/FelipeAlmeidaPaes" target="blank">
             <img src="https://img.icons8.com/nolan/52/000000/github.png">
@@ -93,7 +88,12 @@
           <a href="https://www.facebook.com/profile.php?id=100003253671336" target="blank">
             <img src="https://img.icons8.com/nolan/52/000000/facebook.png">
           </a>
-
+          <a href="https://api.whatsapp.com/send?phone=5521979527629&text=Olá!%20" target="blank">
+            <img src="https://img.icons8.com/nolan/50/000000/whatsapp.png">
+          </a>
+          <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=felipe.almeida.paes22@gmail.com&su=Contato%20através%20do%20site&tf=1" target="blank">
+            <img src="https://img.icons8.com/nolan/50/000000/gmail.png">
+          </a>
         </div>
       </section>
     </div>
@@ -104,8 +104,9 @@
 
     <p>Estudante de Sistemas da Informação, iniciei meus estudos na área de desenvolvimento web em 2017. Sempre em busca de aprender, adquirindo conhecimentos além dos muros da universidade. Atualmente busco minha primeira oportunidade de trabalho formal na área de Desenvolvimento Web Front ou Back End.</p>
 
-    <a class="btn btn-sm" href="#">
-        <img src="https://img.icons8.com/plasticine/100/000000/open-envelope.png" width="40px"> ENTRE EM CONTATO
+    <a class="btn btn-sm" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=felipe.almeida.paes22@gmail.com&su=Contato%20através%20do%20site&tf=1" target="blank">
+        <img src="https://img.icons8.com/plasticine/100/000000/open-envelope.png" width="40px"> 
+        ENTRE EM CONTATO
     </a>
 
   </section>
@@ -122,15 +123,17 @@
   
 
   <section id="skills">
+  
+    <h2>Skills_</h2>   
+  
     <div class="img">
       <!-- background com uma imagem -->
       <div class="main-wrapper" style="height:400px; opacity:0.7;">
         <!-- main-wrapper -->
       </div>
     </div>
-    <h2>Skills_</h2>   
     
-    <div class="skills_images">
+    <div class="skills_images container">
         <div class="chart" data-percent="90"></div> <!-- html -->
         <div class="chart" data-percent="85"></div> <!-- css -->
         <div class="chart" data-percent="70"></div> <!-- js -->
@@ -140,11 +143,63 @@
         <div class="chart" data-percent="75"></div> <!-- mysql -->
         <div class="chart" data-percent="70"></div> <!-- sass -->
         <div class="chart" data-percent="60"></div> <!-- oop -->
-        <div class="chart" data-percent="90"></div> <!-- git -->
+        <div class="chart" data-percent="75"></div> <!-- git -->
     </div>
 
   </section>
 
+
+  <footer id="footer">
+
+    <div class="wrapper">
+      <div class="main-wrapper">
+    
+          <h2>Entre em contato_</h2>
+          
+        <div class="row">      
+          <div class="col-sm-4">
+            <a href="https://api.whatsapp.com/send?phone=5521979527629&text=Olá!%20" target="blank">
+              <img src="https://img.icons8.com/nolan/50/000000/whatsapp.png">(21) 9 7952-7629
+            </a>
+
+            <br>
+
+            <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=felipe.almeida.paes22@gmail.com&su=Contato%20através%20do%20site&tf=1" target="blank">
+              <img src="https://img.icons8.com/nolan/50/000000/gmail.png">felipe.almeida.paes22@gmail.com
+            </a>
+          </div>
+
+          <br><br><br>
+      
+          <div class="col-sm-8">
+            <p>Ou envie uma mensagem_</p>
+
+            <form action="" method="post">
+
+              <input type="text" name="nome" id="nome" placeholder="Seu nome">
+              
+              <input type="mail" name="email" id="email" placeholder="Seu email">
+
+              <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Digite sua mensagem aqui"></textarea>
+              
+              <button type="submit" id="btn-form" class="btn btn-form btn-lg btn-block btn-primary" value="Enviar">
+                Enviar
+              </button>
+
+            </form>
+
+          </div>
+
+        </div> <!-- Row -->
+
+        <div class="footer-copyright text-center py-3">©
+            <span>2019 Felipe Almeida</span>
+        </div>
+        
+      </div>  <!-- main-wrapper -->
+    </div> <!-- wrapper --> 
+
+  </footer>
   
   <!--TYPEWRITER SCRIPT -->
   <script>
