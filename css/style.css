@@ -331,7 +331,10 @@ h1::after {
     width: 100% !important; }
   .col-sm-4 {
     padding-left: 4% !important;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%; } }
 
 @media only screen and (min-width: 992px) {
   .navbar-nav {
@@ -489,6 +492,7 @@ div.row {
 
 .footer-copyright {
   margin-top: 50px;
-  color: rgba(230, 230, 230, 0.4);
+  color: rgba(230, 230, 230, 0.5);
   margin-left: 49%;
-  transform: translateX(-50%); }
+  transform: translateX(-50%);
+  margin-bottom: 0px; }

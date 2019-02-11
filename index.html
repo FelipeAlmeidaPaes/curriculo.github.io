@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Meu Currículo</title>
+  <title>Felipe Almeida - Web Developer</title>
+  <link rel="shortcut icon" type="image/png" href="images/notebook.png" />
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <!-- Optional JavaScript -->
@@ -174,7 +175,7 @@
           <div class="col-sm-8">
             <p>Ou envie uma mensagem_</p>
 
-            <form action="" method="post">
+            <form action="enviarEmail.php" name="form-footer" method="post" id="form-footer">
 
               <input type="text" name="nome" id="nome" placeholder="Seu nome">
               
@@ -182,9 +183,7 @@
 
               <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Digite sua mensagem aqui"></textarea>
               
-              <button type="submit" id="btn-form" class="btn btn-form btn-lg btn-block btn-primary" value="Enviar">
-                Enviar
-              </button>
+              <input type="submit" id="btn-form" class="btn btn-form btn-lg btn-block btn-primary" value="Enviar" onclick="enviarMensagem()">
 
             </form>
 
@@ -200,6 +199,19 @@
     </div> <!-- wrapper --> 
 
   </footer>
+  
+
+  <!-- form submit function -->
+  <script>
+    
+    function enviarMensagem(){
+      var elemento = document.createElement("p");
+      var message = document.createTextNode("Sua mensagem foi enviada com sucesso!");
+      node.appendChild(message);
+      document.getElementById("form-footer").appendChild(elemento);
+    }
+
+  </script>
   
   <!--TYPEWRITER SCRIPT -->
   <script>

@@ -73,6 +73,9 @@
   .col-sm-4{
     padding-left: 4%!important;
     margin-bottom: 30px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
 
