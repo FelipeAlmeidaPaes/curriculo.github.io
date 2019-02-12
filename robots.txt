@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /js
+Disallow: /css
+Disallow: /bootstrap
+Disallow: /jquery
+Allow: /images
+Disallow: /enviarEmail.php
+
+
+Sitemap: https://felipealmeidadeveloper.cf/sitemap.xml
