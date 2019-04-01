@@ -365,7 +365,15 @@ h1::after {
   width: 100px;
   height: 100px;
   flex: 1;
-  margin: 25px 45px 25px; }
+  margin: 25px 45px 25px;
+  opacity: 0.7;
+  transition: 0.7s;
+}
+
+.skills_images .chart:hover{
+  transition: 0.7s;
+  opacity:1;
+}
 
 .chart:nth-child(1) canvas {
   background: url("../images/html.png") no-repeat;
