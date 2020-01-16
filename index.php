@@ -10,13 +10,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="dist/style.css">
-  <script src="js/fontawesome/js/all.min.js"></script>
+  <script src="js/all.min.js"></script>
   <script>
     'use strict';
 
     const scrollToContent = (id) => {
       var reqId = "#" + id;
-      window.scrollTo(0, $(reqId).offset().top);
+      window.scrollTo(0, $(reqId).offset().top-88);
     }
   </script>
 </head>
@@ -183,7 +183,7 @@
         <div class="skill">
           <i class="fas icon fa-database fa-2x"></i>
           <h3>SQL e NoSQL</h3>
-          <p>Structured Query Language e Not Only SQL são linguagens de consulta à bancos de dados.</p>
+          <p>Structured Query Language e Not Only SQL são linguagens de consulta à bases de dados.</p>
 
           <span class="first"></span>
           <span class="second"></span>
