@@ -46,13 +46,13 @@ svg:hover path {
 .navbar-bg-transparent {
 	height: 108px;
 	background: transparent;
-	transition: .3s;
+	transition: 0.3s;
 }
 
 .navbar-bg-black {
 	height: 88px;
-	background: rgba(0, 0, 0, .95);
-	transition: .3s;
+	background: rgba(0, 0, 0, 0.95);
+	transition: 0.3s;
 }
 
 .social-icons {
@@ -76,10 +76,98 @@ svg:hover path {
 	transition: 0.3s;
 }
 
+.toTop {
+	position: fixed;
+	z-index: 333;
+	right: 27px;
+	bottom: 50px;
+	transform: rotate(-270deg);
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s ease;
+}
+
+.toTop a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+	display: block;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	line-height: 1.8;
+	letter-spacing: .5px;
+	font-weight: 400;
+}
+.toTop a:hover {
+	color: #00b8e4;
+}
+.toTop a:hover:before {
+	color: #00b8e4;
+}
+.toTop a:before {
+	content: "<";
+	position: absolute;
+	bottom: -9px;
+	left: -17px;
+	font-family: 'Montserrat';
+	font-size: 24px;
+	color: #fff;
+	-webkit-animation: moving 1000ms linear 0s infinite;
+	-o-animation: moving 1000ms linear 0s infinite;
+	animation: moving 1000ms linear 0s infinite;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+@keyframes moving {
+	0% {
+		-webkit-transform: translateX(0px);
+		-ms-transform: translateX(0px);
+		-o-transform: translateX(0px);
+		transform: translateX(0px);
+	}
+	50% {
+		-webkit-transform: translateX(-10px);
+		-ms-transform: translateX(-10px);
+		-o-transform: translateX(-10px);
+		transform: translateX(-10px);
+	}
+	100% {
+		-webkit-transform: translateX(0px);
+		-ms-transform: translateX(0px);
+		-o-transform: translateX(0px);
+		transform: translateX(0px);
+	}
+}
+
+.opened {
+	opacity: 1;
+	visibility: visible;
+	bottom: 90px;
+}
+
+.section h2 {
+	background: #00b8e4;
+	color: #fff;
+	margin: 0 auto;
+	width: fit-content;
+	padding: 20px;
+	font-weight: 700;
+}
+
 #home {
 	width: 100%;
 	height: calc(100vh + 108px);
-	background: url("../assets/bg.jpg") no-repeat;
+	background: url("../images/bg.jpg") no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
 	margin-top: -108px;
@@ -95,7 +183,7 @@ svg:hover path {
 	z-index: 20;
 	max-width: 40%;
 	margin-left: 100px;
-	font-family: 'Montserrat';
+	font-family: "Montserrat";
 	color: #fff;
 	letter-spacing: -1;
 	text-transform: uppercase;
@@ -113,7 +201,6 @@ svg:hover path {
 	font-weight: 500;
 }
 
-
 #sobre {
 	width: 100%;
 	height: auto;
@@ -122,18 +209,10 @@ svg:hover path {
 	z-index: 2;
 }
 
-#sobre h2 {
-	background: #00b8e4;
-	color: #fff;
-	margin: 0 auto;
-	width: fit-content;
-	padding: 20px;
-	font-weight: 700;
-}
 
 .sobre-content-wrapper {
 	display: grid;
-	grid-template-areas: 'a a';
+	grid-template-areas: "a a";
 	margin-top: 80px;
 	grid-gap: 40px;
 	padding-bottom: 80px;
@@ -141,22 +220,22 @@ svg:hover path {
 
 .sobre-image {
 	display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+	flex-wrap: wrap;
+	align-content: center;
 }
 
 .sobre-text h3 {
 	font-size: 30px;
 	font-weight: 600;
-	font-family: 'Montserrat';
+	font-family: "Montserrat";
 	line-height: 1.2;
 }
 
-.sobre-text p{
+.sobre-text p {
 	font-size: 14px;
-	font-family: 'Open Sans';
-	line-height: 1.8;;
-	letter-spacing: .5px;
+	font-family: "Open Sans";
+	line-height: 1.8;
+	letter-spacing: 0.5px;
 	font-weight: 400;
 	margin-top: 25px;
 	height: fit-content;
@@ -203,18 +282,9 @@ svg:hover path {
 	color: #fff;
 }
 
-#skills h2 {
-	background: #00b8e4;
-	color: #fff;
-	margin: 0 auto;
-	width: fit-content;
-	padding: 20px;
-	font-weight: 700;
-}
-
 .skills-content-wrapper {
 	display: grid;
-	grid-template-areas: 'a a a';
+	grid-template-areas: "a a a";
 	grid-template-columns: repeat(3, calc(34% - 21px));
 	grid-gap: 20px;
 	padding: 80px 0;
@@ -247,7 +317,6 @@ svg:hover path {
 	color: #eee;
 }
 
-
 .skill:hover .first:before {
 	width: 20px;
 }
@@ -265,19 +334,19 @@ svg:hover path {
 .skill .first:before {
 	width: 0px;
 	position: absolute;
-	content: '';
+	content: "";
 	height: 2px;
 	background-color: #fff;
-	transition: .5s ease;
+	transition: 0.5s ease;
 }
 
 .skill .first:after {
 	height: 0px;
 	position: absolute;
-	content: '';
+	content: "";
 	width: 2px;
 	background-color: #fff;
-	transition: .5s ease
+	transition: 0.5s ease;
 }
 
 .skill .second {
@@ -298,17 +367,110 @@ svg:hover path {
 .skill .second:before {
 	width: 0px;
 	position: absolute;
-	content: '';
+	content: "";
 	height: 2px;
 	background-color: #fff;
-	transition: .5s ease;
+	transition: 0.5s ease;
 }
 
 .skill .second:after {
 	width: 2px;
 	position: absolute;
-	content: '';
+	content: "";
 	height: 0px;
 	background-color: #fff;
-	transition: .5s ease;
+	transition: 0.5s ease;
+}
+
+#portfolio {
+	width: 100%;
+	height: auto;
+	background: #000;
+	color: #fff;
+	z-index: 2;
+}
+
+.portfolio-content-wrapper {
+	display: grid;
+	grid-template-areas: 'a a a';
+	grid-template-columns: repeat(3, calc(34% - 21px));
+	grid-gap: 20px;
+	padding: 80px 0;
+}
+
+.portfolio-content-wrapper img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+#contato {
+	background: #060606;
+	width: 100%;
+	height: auto;
+	z-index: 1;
+}
+
+.contato-content-wrapper {
+	padding: 80px 0;
+	text-align: center;
+	color: #fff;
+}
+
+.contacts {
+	margin-top: 40px;
+}
+
+.contato-content-wrapper span,
+.contato-content-wrapper a {
+	font-family: "Open Sans";
+	font-size: 14px;
+	line-height: 1.8;
+	letter-spacing: .5px;
+	font-weight: 400;
+	text-transform: none;
+}
+
+.contato-content-wrapper p {
+	font-family: "Open Sans";
+	font-size: 14px;
+	line-height: 1.8;
+	letter-spacing: .5px;
+	font-weight: 400;
+	width: fit-content;
+	margin: 0 auto;
+	padding: 5px 0 0 0;
+}
+
+.contato-content-wrapper a {
+	color: #fff;
+	transition: .3s ease;
+	font-weight: 500;
+}
+
+.contato-content-wrapper a:hover {
+	transition: .3s ease;
+	text-decoration: none;
+	color: #00b8e4;
+}
+
+#footer {
+	background: #000;
+	width: 100%;
+	height: auto;
+	z-index: 1;
+	color: #fff;
+}
+
+.footer-content-wrapper {
+	padding: 40px 0;
+	text-align: center;
+}
+
+.footer-content-wrapper p {
+	font-size: 14px;
+	font-family: "Open Sans";
+	line-height: 1.8;
+	letter-spacing: .5px;
+	font-weight: 500;
+	margin: 0;
 }

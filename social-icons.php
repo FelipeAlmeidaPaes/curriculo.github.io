@@ -1,6 +1,6 @@
 <ul class="social-icons">
   <li>
-    <a href="https://www.facebook.com/profile.php?id=100003253671336" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.facebook.com/fpaes.dev" target="_blank" rel="noopener noreferrer">
       <i class="fab fa-facebook-f" aria-hidden="true"></i>
     </a>
   </li>
