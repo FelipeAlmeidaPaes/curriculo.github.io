@@ -1,0 +1,150 @@
+@media only screen and (max-width: 360px) {
+  .sobre-image img {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+		background: #000;
+		padding: 20px 0;
+		height: -webkit-fit-content;
+		height: -moz-fit-content;
+		height: fit-content;
+	}
+
+	.navbar-toggler {
+		border: none !important;
+    outline: none;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    padding: 0;
+    margin-right: 25px;
+	}
+
+	.navbar-toggler:focus {
+		outline: none;
+	}
+
+	.navbar-toggler span {
+		display: block;
+		position: absolute;
+		height: 5px;
+		width: 100%;
+		background: #fff;
+		border-radius: 9px;
+		opacity: 1;
+		left: 0;
+		transform: rotate(0deg);
+		transition: 0.25s ease-in-out;
+	}
+
+	.navbar-toggler span:nth-child(1) {
+		top: 0px;
+	}
+
+	.navbar-toggler span:nth-child(2) {
+		top: 9px;
+	}
+
+	.navbar-toggler span:nth-child(3) {
+		top: 18px;
+	}
+
+	.open span:nth-child(1) {
+		top: 9px;
+		transform: rotate(135deg);
+	}
+
+	.open span:nth-child(2) {
+		opacity: 0;
+		left: -60px;
+	}
+
+	.open span:nth-child(3) {
+		top: 9px;
+		transform: rotate(-135deg);
+	}
+
+	.social-icons {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.home-content-wrapper {
+		margin-left: 0;
+		max-width: 100%;
+	}
+
+	.sobre-content-wrapper {
+		grid-template-areas: "a";
+		grid-template-columns: none;
+  }
+  
+  .sobre-image img {
+    margin: 0 auto;
+  }
+
+	.endereco {
+		float: left;
+	}
+
+	.skills-content-wrapper {
+		grid-template-areas: "a";
+		grid-template-columns: none;
+	}
+
+	.portfolio-content-wrapper {
+		grid-template-areas: "a";
+		grid-template-columns: none;
+  }
+  
+  .toTop{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+	
+	.home-content-wrapper {
+		margin-left: 0;
+		max-width: 100%;
+	}
+
+	.sobre-content-wrapper {
+		grid-template-areas: "a";
+		grid-template-columns: none;
+  }
+  
+  .sobre-image img {
+    margin: 0 auto;
+  }
+
+	.endereco {
+		float: left;
+	}
+
+	.skills-content-wrapper {
+		grid-template-areas: "a a";
+		grid-template-columns: none;
+	}
+
+	.portfolio-content-wrapper {
+		grid-template-areas: "a a";
+		grid-template-columns: none;
+  }
+  
+  .toTop{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.endereco {
+		float: left;
+	}
+}

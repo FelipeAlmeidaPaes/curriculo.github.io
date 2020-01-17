@@ -60,6 +60,12 @@
       }
     }
   }
+  
+  $(doc).ready(function(){
+    $('.navbar-toggler').click(function(){
+      $(this).toggleClass('open');
+    });
+  });
 
   // block fancybox to change url
   $.fancybox.defaults.hash = false;
