@@ -52,7 +52,7 @@
           </h3>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In suscipit quisquam ipsam, eveniet pariatur maxime perspiciatis sapiente velit doloribus libero. Laborum architecto ullam aliquam iusto eveniet deserunt nulla exercitationem nisi.
+            <b>Programador e desenvolvedor desde 2018</b>, ano em que dei início em minha carreira de Sistemas da Informação. Desde então, fui descobrindo uma paixão por códigos que me levou a buscar cada vez mais conhecimento em diferentes <b>linguagens de programação</b>.
           </p>
 
           <p>
