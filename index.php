@@ -52,15 +52,11 @@
           </h3>
 
           <p>
-            <b>Programador e desenvolvedor desde 2018</b>, ano em que dei início em minha carreira de Sistemas da Informação. Desde então, fui descobrindo uma paixão por códigos que me levou a buscar cada vez mais conhecimento em diferentes <b>linguagens de programação</b>.
+            <b>Programador e desenvolvedor desde 2018</b>, ano em que iniciou na carreira de Sistemas da Informação. Desde então, foi descobrindo uma paixão por códigos que o levou a buscar cada vez mais conhecimento em diferentes <b>linguagens de programação</b>.
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam facere beatae hic, animi nobis velit unde iste consequatur omnis tempora voluptate sunt mollitia impedit obcaecati autem esse modi ullam?
-          </p>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut veniam doloribus hic distinctio quas nisi fugiat quam adipisci dolorem voluptate exercitationem, excepturi eum vitae omnis autem, eos ratione rerum? Amet?
+            Apaixonado pelo ecossistema Javascript, é capaz de criar APIs REST utilizando Node.js e consumir informações dessa API com React. 
           </p>
 
           <p>
