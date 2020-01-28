@@ -5,14 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Felipe Almeida - Web Developer</title>
+  <meta name="Description" content="Felipe Almeida é desenvolvedor Web desde 2018, ano em que iniciou na carreira de Sistemas da Informação. Apaixonado pelo ecossistema Javascript">.
+  <title>Felipe Almeida - Web Developer</title> 
   <link rel="shortcut icon" type="image/png" href="images/notebook.png">
-  <link rel="stylesheet" href="dist/normalize.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="dist/fancybox.min.css">
-  <link rel="stylesheet" href="dist/style.css">
-  <link rel="stylesheet" href="dist/media-queries.css">
+  <link rel="stylesheet" href="dist/loader.css">
   <script>
     'use strict';
 
@@ -24,6 +20,8 @@
 </head>
 
 <body>
+  <?php require('loader.php') ?>
+
   <?php require('navbar.php') ?>
 
   <div class="section" id="home">
@@ -60,19 +58,19 @@
           </p>
 
           <p>
-            <span class="telefone">Telefone / <a href="http://wa.me/5521979527629" target="_blank" rel="noopener noreferrer">Whatsapp</a> : (21) 97952-7629</span>
+            <span class="telefone">Telefone / <a href="http://wa.me/5521979527629" target="_blank" aria-label="Whatsapp" rel="noopener noreferrer">Whatsapp</a> : (21) 97952-7629</span>
             <span class="endereco"><b>Rio de Janeiro - RJ</b></span>
           </p>
 
           <p class="redes-sociais">
             Redes Sociais:
-            <a href="https://www.facebook.com/fpaes.dev" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/fpaes.dev" target="_blank" aria-label="Facebook" rel="noopener noreferrer">
               <i class="fab fa-facebook-f" aria-hidden="true"></i>
             </a>
-            <a href="https://github.com/FelipeAlmeidaPaes" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/FelipeAlmeidaPaes" target="_blank" aria-label="Github" rel="noopener noreferrer">
               <i class="fab fa-github-alt"></i>
             </a>
-            <a href="https://www.linkedin.com/in/felipe-de-almeida-paes/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/felipe-de-almeida-paes/" target="_blank" aria-label="Linkedin" rel="noopener noreferrer">
               <i class="fab fa-linkedin-in"></i>
             </a>
           </p>
@@ -206,13 +204,13 @@
       <h2>Portfólio</h2>
       <div class="portfolio-content-wrapper">
         <a data-fancybox="gallery" href="images/mcdigital.png" data-caption="Site da empresa Mc Digital.">
-          <img src="images/mcdigital.png">
+          <img src="images/mcdigital2.png" alt="Site Mc Digital">
         </a>
         <a data-fancybox="gallery" href="images/ultrapel.png" data-caption="Site da empresa Ultrapel.">
-          <img src="images/ultrapel.png">
+          <img src="images/ultrapel2.png" alt="Site Ultrapel">
         </a>
         <a data-fancybox="gallery" href="images/bienal.png" data-caption='Jogos desenvolvidos para o programa "Riosolidário" na Bienal do Livro 2019'>
-          <img src="images/bienal.png">
+          <img src="images/bienal2.png" alt="Jogos para Bienal 2019">
         </a>
       </div>
     </div>
@@ -224,11 +222,11 @@
       <div class="contato-content-wrapper">
         <span>Se estiver com dúvidas ou quiser bater um papo, entre em contato comigo :D</span>
         <div class="contacts">
-          <a href="http://wa.me/5521979527629" target="_blank" rel="noopener noreferrer">
+          <a href="http://wa.me/5521979527629" target="_blank" aria-label="Whatsapp" rel="noopener noreferrer">
             Whatsapp: (21) 97952-7629
           </a>
           <br />
-          <a href="https://www.facebook.com/fpaes.dev" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/fpaes.dev" target="_blank" aria-label="Facebook" rel="noopener noreferrer">
             Facebook: @fpaes.dev
           </a>
           <p>fpaes.dev@gmail.com</p>
@@ -248,12 +246,9 @@
   </footer>
 
   <div class="toTop">
-    <a id="toTop" href="" onclick="scrollToContent('home')">Topo</a>
+    <a id="toTop" href="" aria-label="toTop" onclick="scrollToContent('home')">Topo</a>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="js/plugins.js"></script>
   <script src="js/scripts.js"></script>
 </body>

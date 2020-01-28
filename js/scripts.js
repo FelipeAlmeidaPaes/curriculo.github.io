@@ -60,15 +60,35 @@
       }
     }
   }
-  
-  $(doc).ready(function(){
-    $('.navbar-toggler').click(function(){
+
+  $(doc).ready(function () {
+    $('.navbar-toggler').click(function () {
       $(this).toggleClass('open');
     });
   });
 
   // block fancybox to change url
   $.fancybox.defaults.hash = false;
+
+  const addStyleToHTML = () => {
+    var head = document.getElementsByTagName('head')[0];
+    var style = document.createElement('link');
+    style.rel = 'stylesheet';
+    style.type = 'text/css';
+    style.href = 'dist/style.css';
+    style.media = 'non-existant-media';
+
+    head.appendChild(style, head.firstChild);
+    setTimeout(function () {
+      style.media = 'all';
+    });
+  }
+
+  const Loader = () => {
+    setTimeout(function () {
+      $('body').addClass('loaded');
+    }, 1000);
+  }
 
   // invocação de todas as funções
 
@@ -78,5 +98,7 @@
     toTop_hide();
   });
   linksPreventDefault();
+  $(doc).ready(addStyleToHTML);
+  $(doc).ready(Loader);
 
 }(window, document));

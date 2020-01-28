@@ -4,6 +4,7 @@ var gulp = require('gulp');
 var watch = require('gulp-watch');
 var connect = require('gulp-connect-php');
 var autoprefixer = require('gulp-autoprefixer');
+var cleanCSS = require('gulp-clean-css');
 var postcss = require('gulp-postcss');
 var bs = require('browser-sync').create();
 var style = '';
@@ -29,6 +30,7 @@ gulp.task('css', function () {
     .pipe(postcss([
       require('autoprefixer')
     ]))
+    .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('dist/'));
 });
 

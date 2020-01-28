@@ -1,6 +1,6 @@
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light navbar-bg-transparent">
   <div class="container">
-    <a class="navbar-brand mr-auto" onclick=event.preventDefault() href="">
+    <a class="navbar-brand mr-auto" onclick=event.preventDefault() href="" aria-label="Logo">
       <span>
         <svg viewBox="0 0 300 69" preserveAspectRatio="xMidYMid meet" class="css-1y5supu" id="fchfcebc">
           <defs id="SvgjsDefs1015"></defs>
@@ -24,19 +24,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a id="link-home" class="nav-link" onclick="scrollToContent('home')" href="">Home</a>
+          <a id="link-home" class="nav-link" onclick="scrollToContent('home')" aria-label="Home" href="">Home</a>
         </li>
         <li class="nav-item">
-          <a id="link-sobre" class="nav-link" onclick="scrollToContent('sobre')" href="">Sobre</a>
+          <a id="link-sobre" class="nav-link" onclick="scrollToContent('sobre')" aria-label="Sobre" href="">Sobre</a>
         </li>
         <li class="nav-item">
-          <a id="link-skills" class="nav-link" onclick="scrollToContent('skills')" href="">Skills</a>
+          <a id="link-skills" class="nav-link" onclick="scrollToContent('skills')" aria-label="Skills" href="">Skills</a>
         </li>
         <li class="nav-item">
-          <a id="link-portfolio" class="nav-link" onclick="scrollToContent('portfolio')" href="">Portfólio</a>
+          <a id="link-portfolio" class="nav-link" onclick="scrollToContent('portfolio')" aria-label="Portfólio" href="">Portfólio</a>
         </li>
         <li class="nav-item">
-          <a id="link-contato" class="nav-link" onclick="scrollToContent('contato')" href="">Contato</a>
+          <a id="link-contato" class="nav-link" onclick="scrollToContent('contato')" aria-label="Contato" href="">Contato</a>
         </li>
       </ul>
 
