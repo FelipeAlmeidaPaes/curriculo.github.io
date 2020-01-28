@@ -3,7 +3,7 @@ RewriteBase /
 RewriteCond %{HTTP_HOST} ^www.fpaes.herokuapp.com [NC]
 RewriteRule ^(.*)$ http://fpaes.herokuapp.com/$1 [L,R=301]
 
-RewriteCond %{ENV:HTTPS} !on
+RewriteCond %{ENV:HTTPS} !=on
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
 # BEGIN Caching
