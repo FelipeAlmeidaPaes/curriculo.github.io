@@ -22,5 +22,8 @@
     "> 2%",
     "maintained node versions",
     "not dead"
-  ]
+  ],
+  "devDependencies": {
+    "gulp-gzip": "^1.4.2"
+  }
 }
