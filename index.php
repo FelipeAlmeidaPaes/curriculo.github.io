@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="Description" content="Felipe Almeida é desenvolvedor Web desde 2018, ano em que iniciou na carreira de Sistemas da Informação. Apaixonado pelo ecossistema Javascript">.
-  <title>Felipe Almeida - Web Developer</title> 
+  <title>Felipe Almeida - Web Developer</title>
   <link rel="shortcut icon" type="image/png" href="images/notebook.png">
   <link rel="stylesheet" href="dist/loader.css">
   <script>
@@ -17,9 +17,30 @@
       window.scrollTo(0, $(reqId).offset().top - 88);
     }
   </script>
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5JZBWPR');
+  </script>
+  <!-- End Google Tag Manager -->
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JZBWPR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <?php require('loader.php') ?>
 
   <?php require('navbar.php') ?>
@@ -54,7 +75,7 @@
           </p>
 
           <p>
-            Apaixonado pelo ecossistema Javascript, é capaz de criar APIs REST utilizando Node.js e consumir informações dessa API com React. 
+            Apaixonado pelo ecossistema Javascript, é capaz de criar APIs REST utilizando Node.js e consumir informações dessa API com React.
           </p>
 
           <p>
