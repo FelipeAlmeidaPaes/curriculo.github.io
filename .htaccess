@@ -64,4 +64,8 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 SetEnvIfNoCase Request_URI \
 \.(?:gif|jpe?g|png)$ no-gzip dont-vary
 </IfModule>
+<<<<<<< HEAD
 # END Gzip
+=======
+# END Gzip
+>>>>>>> 96d0b8fda0230d0f48a9f8f7564027ef0106e2ac
