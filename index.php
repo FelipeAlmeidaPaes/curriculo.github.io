@@ -72,11 +72,15 @@
           </h3>
 
           <p>
-            <b>Programador e desenvolvedor desde 2018</b>, ano em que iniciou na carreira de Sistemas da Informação. Desde então, foi descobrindo uma paixão por códigos que o levou a buscar cada vez mais conhecimento em diferentes <b>linguagens de programação</b>.
+            Sou <b>programador</b> desde 2017, ano em que iniciei na carreira de Sistemas da Informação. Desde então, fui descobrindo uma paixão por códigos que me levou a buscar cada vez mais conhecimento em diferentes <b>tecnologias</b>.
           </p>
 
           <p>
-            Apaixonado pelo ecossistema Javascript, é capaz de criar APIs REST utilizando Node.js e consumir informações dessa API com React.
+            Iniciei minha carreira como <b>Desenvolvedor FullStack</b>, aprendo com facilidade e estou sempre antenado em tecnologias novas.
+          </p>
+
+          <p>
+            Atualmente tenho conhecimento em tecnologias muito utilizadas no mercado como <b>NodeJS</b>, <b>React</b>, <b>React Native</b>, <b>Typescript</b> e outras.
           </p>
 
           <p>
