@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="Description" content="Felipe Almeida é desenvolvedor Web desde 2018, ano em que iniciou na carreira de Sistemas da Informação. Apaixonado pelo ecossistema Javascript">.
   <title>Felipe Almeida - Web Developer</title>
-  <link rel="shortcut icon" type="image/png" href="images/notebook.png">
+  <link rel="shortcut icon" href="./images/favicon.ico">
   <link rel="stylesheet" href="dist/loader.css">
   <script>
     'use strict';
