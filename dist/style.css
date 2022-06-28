@@ -859,6 +859,22 @@ svg:hover path {
 	fill: #00b8e4;
 }
 
+.fa-nextjs {
+	background: url('../images/nextjs_icon.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.fa-kotlin {
+	background: url('../images/kotlin_icon.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
 .skill h3 {
 	font-size: 20px;
 	font-weight: 600;
@@ -956,6 +972,10 @@ svg:hover path {
 .portfolio-content-wrapper img {
 	width: 100%;
 	border-radius: 5px;
+}
+
+.fancybox-caption a, .fancybox-caption a:link, .fancybox-caption a:visited .portfolio_link {
+	color: #00b8e4!important;
 }
 
 #contato {
